@@ -2,7 +2,7 @@ module AmokTime
   module Mixins
     module Date
       def today
-        if Thread.current[:amok_time].present?
+        if Thread.current[:amok_time]
           Thread.current[:amok_time].to_date
         else
           super
@@ -29,7 +29,7 @@ module AmokTime
 
     module DateTime
       def now
-        if Thread.current[:amok_time].present?
+        if Thread.current[:amok_time]
           Thread.current[:amok_time].to_datetime
         else
           super
@@ -53,7 +53,7 @@ module AmokTime
 
     module Time
       def now
-        if Thread.current[:amok_time].present?
+        if Thread.current[:amok_time]
           Thread.current[:amok_time].to_time
         else
           super
