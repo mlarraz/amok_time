@@ -1,5 +1,6 @@
 # Amok Time
 [![Build Status](https://travis-ci.org/mlarraz/amok_time.svg?branch=master)](https://travis-ci.org/mlarraz/amok_time)
+[![Coverage Status](https://coveralls.io/repos/github/mlarraz/amok_time/badge.svg?branch=master)](https://coveralls.io/github/mlarraz/amok_time?branch=master)
 
 Utility for mocking time across service boundaries on a per-request basis.
 Also passes the mock along to any background jobs enqueued during the request.
