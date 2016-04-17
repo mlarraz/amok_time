@@ -1,6 +1,4 @@
-require 'spec_helper'
-
-describe AmokTime do
+RSpec.describe AmokTime do
   it 'has a version number' do
     expect(AmokTime::VERSION).not_to be nil
   end
