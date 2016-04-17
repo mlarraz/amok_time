@@ -94,7 +94,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/amok_time.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/mlarraz/amok_time>.
 
 
 ## License

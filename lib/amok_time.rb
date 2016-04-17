@@ -3,7 +3,8 @@ require "amok_time/version"
 
 module AmokTime
   class << self
-    attr_accesor :enabled
+    attr_accessor :enabled
+    alias_method :enabled?, :enabled
 
     def enable!
       self.enabled = true
