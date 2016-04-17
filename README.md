@@ -1,4 +1,5 @@
 # Amok Time
+[![Build Status](https://travis-ci.org/mlarraz/amok_time.svg?branch=master)](https://travis-ci.org/mlarraz/amok_time)
 
 Utility for mocking time across service boundaries on a per-request basis.
 Also passes the mock along to any background jobs enqueued during the request.
